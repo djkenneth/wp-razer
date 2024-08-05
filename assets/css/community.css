@@ -1,0 +1,83 @@
+#primary {
+	
+  background-color: #080808;
+}
+
+article  {
+	border-bottom: none;
+}
+
+article .title {
+	display: none;
+}
+
+article .post-meta {
+	display: none;
+}
+
+article .the-content .description {
+	padding: 20px 0;
+	
+	font-family: 'MonserratLight';
+	color: #978F8D;
+}
+
+article .the-content .heading {
+	padding: 20px 0;
+
+	font-family: 'MontserratRegular';
+	text-align: center;
+}
+
+article .the-content .more-link {
+	text-align: center;
+}
+
+.wp-block-cover {
+	margin-bottom: 20px;
+}
+
+.wp-block-media-text {
+	margin: 20px;
+}
+article .the-content p {
+	padding: 0;
+
+	font-family: 'MonserratLight';
+}
+
+.wp-block-cover {
+	margin-bottom: 20px;
+}
+
+.blocks-gallery-grid {
+	width: 100%;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+	padding: 0 0 0 8%;
+}
+
+.wp-block-cover p:not(.has-text-color) {
+	text-align: center;
+}
+
+.wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
+	width: auto;
+	margin-top: 26px;
+}
+
+.post-categories > li > a {
+	padding: 10px 15px;
+	font-size: 15px;
+	color: #00ff01;
+}
+
+.clearfix {
+    display: none;
+}
+
+.wp-block-column .heading {
+	text-align: center;
+}
+

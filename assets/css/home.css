@@ -1,0 +1,227 @@
+.page-id-935 .home .section-banner .container {
+    padding: 65px 7px 31px 7px;
+  }
+
+  .home .section-form .address  {
+    width: 100px;
+  }
+
+  .home .section-form .btnsend {
+    border: 1px solid transparent;
+  }
+
+ .home .section-form .btnsend:hover  {
+    color: white; 
+	  
+    background-color: transparent;
+    border: 1px solid #00ff01;
+
+    transition: all .2s ease-in-out;
+  }
+
+  .home .section-form #input-name, 
+  .home .section-form #input-phone,
+  .home .section-form #input-email,
+  .home .section-form #input-address {
+    padding: 15px;
+  }
+
+  .home .section-form .address:hover,
+  .home .section-form .phone-num:hover,
+  .home .section-form .email-address:hover {
+    color: #00ff01;
+  } 
+
+  .home .section-form .phone-num
+  .home .section-form .email-address {
+    text-decoration: none;
+  }
+
+  .home .section-product a.more-link {
+    position: relative;
+
+    text-decoration: none;
+  }
+
+  .home .section-product a.more-link:after,
+  .home .section-product a.more-link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #00ff01;
+
+    transition: all 0.3s ease;
+    transform: scale(0.99);
+  }
+    
+  .home .section-product a.more-link:hover:before {
+    top: 0;
+    
+    transform: scale(1);
+  }
+     
+  .home .section-product a.more-link:hover:after {
+    transform: scale(1)
+  }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home .section-banner .banner-razer {
+    margin-left: 24%;
+    margin-top: -2%;
+  }
+
+  .home .section-complemented .swiper-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home .section-banner .container {
+    padding: 30px 7px 32px 7px;
+  }
+
+  .home .section-banner .supreme-title {
+    position: relative;
+
+    margin-left: 0;
+    margin-top: 43px;
+    width: 599px;
+  }
+
+  .home .section-banner .banner-razer {
+    margin-top: 58%;
+    margin-left: 1%;
+  }
+
+  .home .section-form form {
+    padding-right: 0;
+  }
+
+  .home .section-form .address {
+    width: 124px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .home .section-form .address {
+    width: 116px;
+  }
+
+  .home .section-product .btn-products {
+    margin: 0 auto;
+  }
+
+  .home .section-product #view-product3,
+  .home .section-product #view-product4 {
+    display: none;
+  }
+
+  .home .section-product a.more-link::before,
+  .home .section-product a.more-link::after {
+    left: 6px;
+
+    transform: scale(0.91);
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+  .home .section-banner .container {
+      padding: 10px 16px 27px;
+  }
+
+  .home .section-banner .supreme-title {
+    padding: 75px 10px 4px;
+  }
+
+  .home .section-banner .supreme-text {
+    padding: 7px 10px;
+  }
+
+  .home .section-complemented .comfort-title {
+    padding:25px 0 10px;
+  }
+
+  .home .section-complemented .flex-container {
+    padding: 35px 10px 25px;
+  }
+
+  .home .section-complemented .product-title {
+    padding: 5px 0 40px;
+  }
+
+  .home .section-complemented .swiper-products {
+    padding: 0 10px;
+  }
+
+  .home .section-complemented .modal-image {
+    width: 100%;
+  }
+
+  .home .section-complemented .swiper-image {
+    width: 100%;
+  }
+
+  .home .section-complemented .swiper-pagination {
+    padding-left: 0;
+	  
+    text-align: center;
+  }
+
+  .home .section-thx .spatial-title {
+    padding: 25px 0 10px;
+  }
+
+  .home .section-thx .spatial-text {
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+
+  .home .section-product .product-header {
+    padding: 25px 10px 41px 10px;
+  }
+
+  .home .section-product .card-product {
+    padding: 0 27px 33px;
+  }
+
+  .home .section-product .btn-products {
+    margin: 0 auto;
+  }
+
+  .home .section-product #view-product3,
+  .home .section-product #view-product4 {
+    display: none;
+  }
+
+  .home .section-form .ask-title {
+    padding-top: 25px;
+  }
+
+  .home .section-form form {
+    padding: 11px 10px;
+  }
+
+  .home .section-form .btnsend {
+    margin-top: 8px;
+  }
+
+  .home .section-form .address {
+    width: 147px;
+  }
+
+  .home .section-form .sub-address,
+  .home .section-form .sub-phone,
+  .home .section-form .sub-email {
+    padding: 18px 15px 6px;
+  }
+}
+
+
+

@@ -1,0 +1,155 @@
+footer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+
+  background-color: #161415;
+}
+
+footer .section-footer {
+  background-color: #161415;
+}
+
+footer .section-footer .navbar-brand {
+  margin-top: 15px;
+}
+
+footer .section-footer .footernav {
+  margin:20px 0px 20px 0px;
+}
+
+footer .section-footer .footer-link a {
+  position: relative;
+}
+
+footer .section-footer .footer-link a:hover {
+  color: #00ff01;
+
+  text-decoration:2px solid underline;
+  text-underline-offset: 8px;
+}
+
+footer .section-footer .social-logo {
+  top: 22px;
+  left: 3%;
+}
+
+footer .section-footer .copyright h2 {
+  padding:8px 0 10px;
+	
+  font-size:13px; 
+  color: white;
+  text-align:center;
+  opacity:.4;
+}
+
+footer .section-footer hr.footer-divider {
+  margin-top: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer .section-footer .navbar-brand {
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  footer .section-footer .row {
+    margin: 0;
+  }
+
+  footer .section-footer .navbar-brand {
+    margin-top: 29px;
+    margin-right: 21px;
+  }
+
+  footer .section-footer .footer-link a  {
+    padding: 7px;
+  }
+
+  footer .section-footer .copyright h2 {
+    font-size: 11px;
+  }
+
+  footer .section-footer .navbar-brand  {
+    margin-top: 14px;
+    margin-right: initial;
+  }
+
+  footer .section-footer .social-logo {
+    left: 1%;
+
+    padding-top: 11px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .section-footer .row {
+    margin: 0;
+  }
+
+  footer .section-footer .navbar-brand {
+    float: left;
+
+    margin-left: 13px;
+  }
+
+  footer .section-footer .social-logo {
+    top: -24px;
+    left: -33%;
+  }
+
+  footer .section-footer .container {
+    padding: 30px 20px 20px;
+  }
+
+  footer .section-footer .footer-logo {
+    width: 35%;
+    margin: 0 293px 0 0;
+  }
+} 
+
+@media screen and (max-width: 575px) {
+  footer .section-footer .row {
+    margin-bottom: 0;
+  }
+
+  footer .section-footer .social-logo {
+    top: -24px;
+    left: -29%;
+
+    padding-top: 15px;
+  }
+
+  footer .section-footer .navbar-brand {
+    margin-left: -28px;
+  }
+
+  footer .section-footer .navbar-brand {
+    float: left;
+  }
+
+  footer .section-footer .footernav {
+    padding-top: 13px;
+    margin: 5px 0px 20px 0px;
+  }
+
+  footer .section-footer .footer-logo {
+    margin: 0 88px 0 19px;
+  }
+
+  footer .section-footer .footer-link a {
+    padding: 10px 110px 14px 13px;
+  }
+
+  footer .section-footer .copyright h2 {
+    padding: 10px 10px 0;
+    margin: 0;
+
+    font-size: 11px;
+    text-align: left;
+  }
+}
+

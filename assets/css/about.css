@@ -1,0 +1,544 @@
+.about .section-banner {
+  width: 100%;
+  height: auto;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .section-banner .banner-content {
+  padding: 292px 0;
+}
+
+.about .section-banner .banner-heading {
+  font-family: 'MontserratRegular';
+  font-size: 48px;
+  color: #00ff01;
+  text-align: center;
+}
+
+.about .section-main-content {
+  padding: 60px 65px;
+  width: 100%;
+  height: auto;
+
+  background-color: #0f0f0f;
+}
+
+.about .section-main-content .main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about .section-main-content .heading {
+  margin-bottom: 30px;
+
+  font-family: 'MontserratRegular';
+  font-size: 30px;
+  color: #00ff01;
+}
+
+.about .section-main-content .description {
+  font-family: 'MonserratLight';
+  font-size: 18px;
+  color: #8c8384;
+} 
+
+.about .section-accolades {
+  padding: 60px 65px;
+  width: 100%;
+  height: auto;
+
+  background-color: #000;
+}
+
+.about .section-accolades .heading  {
+  margin-bottom: 30px;
+
+  font-family: 'MontserratRegular';
+  font-size: 24px;
+  color: #00ff01;
+} 
+
+.about .section-accolades .content-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about .section-accolades .content-holder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px 20px 54px 10px;
+}
+
+.about .section-accolades .content {
+  width: 350px;
+}
+
+.about .section-accolades .title {
+  font-family: 'MontserratRegular';
+  font-size: 16px;
+  color: #fff;
+  opacity: .7;
+}
+
+.about .section-accolades .description {
+  font-family: 'MonserratLight';
+  font-size: 15px;
+  color: #8c8384;
+}
+
+.about .section-accolades .content-wrapper .content-holder:first-child .image-holder {
+  margin-right: 30px;
+}
+
+.about .section-accolades .content-wrapper .content-holder:nth-child(2) .image-holder {
+  margin-right: 64px;
+}
+
+.about .section-accolades .content-wrapper .content-holder:nth-child(3) .image-holder {
+  margin-right: 55px;
+}
+
+.about .section-accolades .content-wrapper .content-holder:nth-child(4) .image-holder {
+  margin-right: 33px;
+}
+
+.about .section-accolades .content-wrapper .content-holder:nth-child(5) .image-holder {
+  margin-right: 52px;
+}
+
+.about .section-accolades .content-wrapper .content-holder:last-child .image-holder {
+  margin-right: 8px;
+}
+
+.about .section-history {
+  padding: 60px 65px;
+  width: 100%;
+  height: auto;
+
+  background-color: #0f0f0f;
+}
+
+.about .section-history .heading {
+  margin-bottom: 30px;
+
+  font-family: 'MontserratRegular';
+  font-size: 24px;
+  color: #00ff01;
+}
+
+.about .section-history .title {
+  margin:20px 0 15px;
+
+  font-family: 'MontserratRegular';
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+
+  border-bottom: 0.5px solid transparent;
+}
+
+.about .section-history .title:hover {
+  width: 31%;
+	
+  border-bottom: 0.5px solid #00ff01;
+}
+
+.about .section-history .description {
+  font-family: 'MonserratLight';
+  font-size: 16px;
+  color: #999;
+}
+
+.about .section-history .content-wrapper .content-holder:first-child .image-holder,
+.about .section-history .content-wrapper .content-holder:nth-child(3) .image-holder  {
+  display: flex;
+  order: 1;
+}
+
+.about .section-history .content-wrapper .content-holder:nth-child(2) .content,
+.about .section-history .content-wrapper .content-holder:last-child .content {
+  margin-left: 40px;
+}
+
+.about .section-history .content-wrapper .content-holder:first-child .content,
+.about .section-history .content-wrapper .content-holder:nth-child(3) .content {
+  margin-right: 40px;
+}
+
+.about .section-history .content-holder {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 25px 0;
+}
+
+.about .section-team {
+  padding: 60px 65px;
+  width: 100%;
+  height: auto;
+
+  background-color: #080808;
+}
+
+.about .section-team .team-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.about .section-team .team-holder {
+  padding: 10px 15px;
+
+  text-align: center;
+}
+
+.about .section-team .heading {
+  margin-bottom: 30px;
+
+  font-family: 'MontserratRegular';
+  font-size: 24px;
+  color: #00ff01;
+}
+
+.about .section-team .name {
+  margin:20px 0 10px;
+
+  font-family: 'MontserratSemiBold';
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.about .section-team .name-title  {
+  font-family: 'MonserratLight';
+  font-size: 16px;
+  color: #fff;
+  opacity: .9;
+}
+
+.about .section-team .description {
+  font-family: 'MonserratLight';
+  font-size: 16px;
+  color: #999;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about .section-main-content {
+    padding: 40px 45px;
+  }
+
+  .about .section-accolades {
+    padding: 40px 45px;
+  }
+
+  .about .section-accolades .content {
+    width: 100%;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:nth-child(2) .image-holder {
+    margin-left: 32px;
+    margin-right: 69px;
+  }
+
+  .about .section-accolades .content-holder {
+    flex-wrap: nowrap;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:nth-child(4) .image-holder {
+    margin-right: 68px;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:nth-child(5) .image-holder {
+    margin-right: 43px;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:last-child .image-holder {
+    margin-right: 40px;
+  }
+
+  .about .section-history {
+    padding: 40px 45px;
+  }
+
+  .about .section-team {
+    padding: 40px 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about .section-main-content {
+    padding: 30px 30px;
+  }
+
+  .about .section-accolades {
+    padding: 30px 30px;
+  }
+
+  .about .section-accolades .content-holder {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 15px 20px 50px 10px;
+  }
+
+  .about .section-accolades .content {
+    width: 100%;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:nth-child(2) .image-holder {
+    margin-left: 32px;
+    margin-right: 69px;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:nth-child(4) .image-holder {
+    margin-right: 68px;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:nth-child(5) .image-holder {
+    margin-right: 43px;
+  }
+
+  .about .section-accolades .content-wrapper .content-holder:last-child .image-holder {
+    margin-right: 40px;
+  }
+
+  .about .section-history {
+    padding: 30px 30px;
+  }
+
+  .about .section-history .content-wrapper .content-holder:first-child .content, 
+  .about .section-history .content-wrapper .content-holder:nth-child(3) .content {
+    margin-right: 20px;
+  }
+
+  .about .section-history .content-wrapper .content-holder:nth-child(2) .content,
+  .about .section-history .content-wrapper .content-holder:last-child .content {
+    margin-left: 20px;
+  }
+
+  .about .section-team {
+    padding: 30px 30px;
+  }
+
+  .about .section-team .name {
+    margin: 18px 0 5px;
+
+    font-size: 14px;
+  }
+
+  .about .section-team .name-title {
+    font-size: 14px;
+  }
+
+  .about .section-team .description {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .about .section-banner .banner-heading {
+    font-size: 39px;
+  
+  }
+
+  .about .section-main-content {
+    padding: 20px 16px;
+
+    font-size: 24px;
+  }
+
+  .about .section-main-content .heading {
+    margin-bottom: 20px;
+
+    font-size: 22px;
+  }
+
+  .about .section-main-content .description {
+    font-size: 15px;
+  }
+
+  .about .section-accolades {
+    padding: 20px 16px;
+  }
+
+  .about .section-accolades .heading {
+    font-size: 22px;
+  }
+
+  .about .section-accolades .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .about .section-accolades .content-holder {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 15px 0 20px;
+  }
+
+  .about .section-accolades .content {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .about .section-history {
+    padding: 20px 16px;
+  }
+
+  .about .section-history .heading {
+    font-size: 22px;
+  }
+
+  .about .section-history .content-holder {
+    flex-direction: column;
+  }
+
+  .about .section-history .title {
+    font-size: 16px;
+  }
+
+  .about .section-history .description {
+    font-size: 15px;
+  }
+
+  .about .section-history .content-wrapper .content-holder:first-child .image-holder,
+  .about .section-history .content-wrapper .content-holder:nth-child(3) .image-holder {
+    order: 0;
+  }
+
+  .about .section-history .content-wrapper .content-holder:nth-child(2) .content,
+  .about .section-history .content-wrapper .content-holder:last-child .content {
+    margin-left: 0;
+  }
+
+  .about .section-history .content-wrapper .content-holder:first-child .content, 
+  .about .section-history .content-wrapper .content-holder:nth-child(3) .content {
+    margin-right: 0;
+  }
+
+  .about .section-team {
+    padding: 20px 16px;
+  }
+
+  .about .section-team .heading {
+    font-size: 22px;
+  }
+
+  .about .section-team .team-wrapper {
+    flex-direction: column;
+  }
+
+  .about .section-team .name-title {
+    font-size: 15.5px;
+  }
+  
+  .about .section-team .description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about .section-banner .banner-heading {
+    font-size: 39px;
+  }
+
+  .about .section-main-content {
+    padding: 20px 16px;
+
+    font-size: 24px;
+  }
+
+  .about .section-main-content .heading {
+    margin-bottom: 20px;
+
+    font-size: 22px;
+  }
+
+  .about .section-main-content .description {
+    font-size: 15px;
+  }
+
+  .about .section-accolades {
+    padding: 20px 16px;
+  }
+
+  .about .section-accolades .heading {
+    font-size: 22px;
+  }
+
+  .about .section-accolades .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .about .section-accolades .content-holder {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 15px 0 20px;
+  }
+
+  .about .section-accolades .content {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .about .section-history {
+    padding: 20px 16px;
+  }
+
+  .about .section-history .heading {
+    font-size: 22px;
+  }
+
+  .about .section-history .content-holder {
+    flex-direction: column;
+  }
+
+  .about .section-history .title {
+    font-size: 16px;
+  }
+
+  .about .section-history .description {
+    font-size: 15px;
+  }
+
+  .about .section-history .content-wrapper .content-holder:first-child .image-holder,
+  .about .section-history .content-wrapper .content-holder:nth-child(3) .image-holder {
+    order: 0;
+  }
+
+  .about .section-history .content-wrapper .content-holder:nth-child(2) .content,
+  .about .section-history .content-wrapper .content-holder:last-child .content {
+    margin-left: 0;
+  }
+
+  .about .section-history .content-wrapper .content-holder:first-child .content, 
+  .about .section-history .content-wrapper .content-holder:nth-child(3) .content {
+    margin-right: 0;
+  }
+
+  .about .section-team {
+    padding: 20px 16px;
+  }
+
+  .about .section-team .heading {
+    font-size: 22px;
+  }
+
+  .about .section-team .team-wrapper {
+    flex-direction: column;
+  }
+
+  .about .section-team .name-title {
+    font-size: 15.5px;
+  }
+  
+  .about .section-team .description {
+    font-size: 15px;
+  }
+}
+
